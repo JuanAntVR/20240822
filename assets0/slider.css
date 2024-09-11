@@ -1,0 +1,52 @@
+
+
+
+/*Hs edicion*/
+    h1,h2,h3,h4,h5{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+/*Hs edicion*/
+
+
+
+/* slider del header*/
+.glosarioimg1{
+    display: flex;
+    width: 1000px;
+    height: 430px;
+    margin: 0 auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+
+
+
+
+
+
+
+}
+
+
+.glosarioimg1 img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+
+
+
+.glosarioimg1 img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+
+}
+
+/* fin slider del header*/

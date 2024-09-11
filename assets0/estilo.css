@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+body{
+    background-color: aliceblue;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',;
+}
+
+.container{
+    
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: bisque;
+    overflow: hidden;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h2,h3,h4,h5,h6{
+    text-align: center;
+   color: rgb(209, 0, 122);;
+}
+
+header{
+    text-align: center;
+    background-color: bisque;
+    border:2px solid black;
+    
+    
+}
+
+header h1 {
+    
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* estilo del antonio maestro*/
+header nav{
+    margin: 0 auto;
+    background-color: #949494; 
+    width: 100%;
+    
+    
+}
+
+header nav ul{
+    display: block;
+    
+   
+    
+}
+
+
+header nav li{
+    
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-left: 15px;
+    padding-left: 45px;
+    font-size: 22px;
+    
+    
+}
+
+
+header nav li a {
+    display:block;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid bisque;
+
+}
+
+
+
+ nav li a:hover{
+    color:rgb(209, 0, 122);
+    background-color: rgb(116, 116, 116);
+    border-bottom: solid 2px  rgb(209, 0, 122);
+    padding: 5px;
+    
+      
+
+}
+
+/* fin estilo del antonio maestro*/
+
+
+
+
+.actualidad01{
+    text-align: center;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+
+
+
+.actualidadNoticia{
+    padding: 0 0.5rem;
+    
+}
+
+
+
+
+a:hover .actualidad01 {
+    color:  rgb(209, 0, 122);
+    background-color: rgb(116, 116, 116);
+    border-bottom: 2px rgb(209, 0, 122);
+}
+
+footer{
+    background-color: bisque;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+
+
+
+
+
+/* estilo del antonio maestro*/
+footer nav{
+
+    margin: 0 auto;
+    
+}
+
+footer nav ul{
+    margin: 0%auto;
+    
+ 
+    
+   
+    
+}
+
+
+footer nav li{
+    float: left;
+    margin-left: 10px;
+   
+ 
+}
+
+
+footer nav li a {
+    display:block;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid bisque;
+
+}
+
+
+
+
+
+  
+  
+ 
+/* pagina noticias estilos*/
+
+ 
+
+.noticiabg h2{
+    
+    color: aliceblue;
+    font-weight: 700;
+    
+    
+    
+}
+.migadepan{
+    padding:0 2rem;
+    
+   
+   
+}
+
+.migadepan h2{   
+   text-align: center;
+   font-size: 0.8rem;
+}
+
+.migadepan a{
+    text-decoration: none;
+    color: #949494;
+    padding-left: 5px;
+    text-shadow: 2px 2px 5px #dfaa00;
+    font-size: 0.8rem;
+}
+
+
+.migadepan h2 a{
+    
+
+    color: gray;
+    
+}
+
+.migadepan a:hover{
+
+    color: rgb(209, 0, 122);
+    text-decoration: underline;
+    
+    
+}
+
+.migadepan h2, .migadepan p{
+    text-align: center;
+    
+
+}
+
+
+.noticia{
+border: solid 2px black;
+}
+
+.noticia p{
+    text-align:center;
+    padding: 0.8rem;
+    
+    
+
+}
+
+.noticia h2{
+    color: rgb(209, 0, 122);
+    text-align:center;
+    font-weight:lighter;
+}
+
+.noticia img{
+    width:100%;
+    height:180px;
+}
+
+.row{
+    padding: 0.8rem;
+
+}
+.row1{
+    padding: 0.8rem;}
+
+.row:hover{
+    background-color: rgb(209, 0, 122);
+    color: aliceblue;
+}
+/* fin pagina noticias estilos*/
+
+
+
+
+
+
+
+/*sistemas de columnas*/
+[class*="col-"] {
+    float: left;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*fin del sistemas de columnas*/
+
+
+/*etiqueta media*/
+
+@media only screen and (max-width: 500px) {
+    body{
+      background-color: lightblue;
+    }
+    [class*="col-"] {
+        width: 100%;
+    }
+  }  
